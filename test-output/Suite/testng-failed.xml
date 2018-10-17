@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="pom.emp.frame.automationtest">
+        <methods>
+          <include name="SixthAutomationTest"/>
+          <include name="SecondAutomationTest"/>
+          <include name="ThirdAutomationTest"/>
+          <include name="fIFTHAutomationTest"/>
+          <include name="ClosebrowserTest"/>
+          <include name="ForthAutomationTest"/>
+          <include name="LogoutTest"/>
+          <include name="loginTest"/>
+          <include name="Launchbrowser"/>
+        </methods>
+      </class> <!-- pom.emp.frame.automationtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

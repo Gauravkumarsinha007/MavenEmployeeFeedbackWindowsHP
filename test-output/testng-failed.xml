@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pom.emp.frame.Admin">
+        <methods>
+          <include name="Closebrowsertest"/>
+          <include name="launchbrowser"/>
+          <include name="VerifyactionAdminTest"/>
+          <include name="logoutTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- pom.emp.frame.Admin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
